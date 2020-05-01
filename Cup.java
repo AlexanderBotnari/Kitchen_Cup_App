@@ -14,7 +14,7 @@ public class Cup {
 		return liquidName;
 	}
 	public void setLiquidName(String liquidName) {
-		if(liquidName == "Milk" || liquidName == "Water" || liquidName == "Tea") {
+		if(liquidName.equals("Milk") || liquidName.equals("Water") || liquidName.equals("Tea")) {
 			this.liquidName = liquidName;
 		}else {
 			System.err.println("Invalid liquid name !");
