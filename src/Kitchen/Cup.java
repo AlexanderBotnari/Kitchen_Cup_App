@@ -28,7 +28,7 @@ public class Cup {
 			this.liquidVolume = liquidVolume;
 		}else {
 			System.err.println("Incorect liquid volume value !\n"
-					+ "Please enter 1 to 600 ml");
+					+ "Please enter 0 to 600 ml");
 		}
 	}
 }
