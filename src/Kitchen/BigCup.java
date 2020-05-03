@@ -1,17 +1,10 @@
 package Kitchen;
 
 public class BigCup extends Cup{
-	
-	private int liquidVolume;
-	
+
 	public BigCup() {}
 	public BigCup(  String liquidName, int liquidVolume) {
-	    setLiquidVolume(liquidVolume);
-	    setLiquidName(liquidName);
-	}
-	
-	public int getLiquidVolume() {
-		return liquidVolume;
+	   super(liquidName, liquidVolume);
 	}
 	public void setLiquidVolume(int liquidVolume) {
     	if(liquidVolume >= 0 && liquidVolume <= 1000) {
